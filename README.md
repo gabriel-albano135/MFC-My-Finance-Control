@@ -93,21 +93,6 @@ O sistema e os testes unitários e de integração utilizam recursos nativos do 
 
 Informe valores como `1500,50` ou `1500.50`, sem separador de milhar. Utilize dados fictícios durante as demonstrações e a homologação.
 
-## Testes
-
-### Resultados documentados
-
-| Nível | Quantidade | Resultado |
-| :--- | ---: | :--- |
-| Unitário | 37 | Aprovados |
-| Integração | 11 | Aprovados |
-| Sistema / E2E | 13 | Aprovados |
-| **Total** | **61** | **Aprovados nas execuções concluídas** |
-
-Esses números correspondem às execuções registradas no relatório acadêmico, e não a um monitoramento automático deste repositório. A tentativa inicial de E2E foi bloqueada pelo ambiente antes da execução dos cenários; posteriormente, os 13 cenários foram executados com sucesso no computador da equipe.
-
-A aprovação na primeira tentativa não foi apurada para toda a suíte. Não houve defeito funcional confirmado nas verificações documentadas, o que não garante ausência de defeitos em situações não avaliadas.
-
 ## Organização do projeto
 
 | Caminho | Responsabilidade |
@@ -120,7 +105,6 @@ A aprovação na primeira tentativa não foi apurada para toda a suíte. Não ho
 | `tests/` | Testes automatizados |
 | `data/` | Dados locais da aplicação |
 | `evidencias/` | Registros e capturas das execuções |
-| `docs/` | Documentação de apoio |
 
 ## Armazenamento e escopo
 
